@@ -1,14 +1,13 @@
 /*
  * @Author: your name
  * @Date: 2020-12-06 11:40:00
- * @LastEditTime: 2020-12-06 12:07:42
+ * @LastEditTime: 2022-03-14 23:02:25
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /two/vue.config.js
  */
 const {name} = require('./package')
-
-const port = 6662
+const { port } = require('./src/config')
 
 module.exports = {
     devServer: {

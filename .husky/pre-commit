@@ -1,0 +1,10 @@
+###
+ # @Author: Vinton
+ # @Date: 2022-07-25 21:35:34
+ # @Description: file content
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+git status | grep modified | awk '{print $2}' > chanceList.txt
+# node script/husky.js
