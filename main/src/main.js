@@ -24,7 +24,7 @@ import {
 new Vue({
     render: function (h) { return h(App) },
 }).$mount('#container')
-console.log('主应用')
+console.log('主应用====>')
 // 注册子应用
 registerMicroApps([
     {
