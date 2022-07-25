@@ -1,7 +1,7 @@
 /*
  * @Author: Vinton
  * @Date: 2020-12-06 10:46:32
- * @LastEditTime: 2022-07-25 22:00:59
+ * @LastEditTime: 2022-07-25 22:12:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /main/src/main.js
@@ -24,7 +24,7 @@ import {
 new Vue({
     render: function (h) { return h(App) },
 }).$mount('#container')
-console.log('主应用')
+console.log('主应用===>')
 // 注册子应用
 registerMicroApps([
     {
